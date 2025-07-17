@@ -58,7 +58,7 @@ $ expense-tracker summary --month 8
 ```
 
 ## Orden de las carpetas
-
+```
 ExpenseTracker/
 ├── cmd/                    # Entrada principal de la CLI
 │   └── root.go            )
@@ -96,3 +96,4 @@ ExpenseTracker/
 ├── go.mod
 ├── go.sum
 └── main.go                # Punto de entrada de la app
+```
