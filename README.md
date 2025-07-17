@@ -1,15 +1,3 @@
-// Comandos y flags
-
-// add  --description --amount 
-// update --id --description --amount 
-// list  
-// summary --month 
-// delete --id 
-// help
-
-
-// Conn bd Servicios CRUD 
-//Posgrest
 ## Reto
 
 [🔗Url](https://roadmap.sh/projects/expense-tracker)
@@ -57,6 +45,19 @@ $ expense-tracker summary --month 8
 # Total expenses for August: $20
 ```
 
+Comandos y flags
+
+// add  --description --amount
+// update --id --description --amount
+// list
+// summary --month
+// delete --id
+// help
+
+
+// Conn bd Servicios CRUD
+//Posgrest
+
 ## Orden de las carpetas
 ```
 ExpenseTracker/
@@ -96,4 +97,14 @@ ExpenseTracker/
 ├── go.mod
 ├── go.sum
 └── main.go                # Punto de entrada de la app
+```
+
+## Comandos
+
+```bash
+make build   # Compila el binario
+make run     # Lo compila y lo ejecuta
+make lint    # Pasa el linter
+make test    # Ejecuta los tests
+make clean   # Borra los binarios generados
 ```

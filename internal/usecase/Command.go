@@ -1,5 +1,5 @@
 package usecase
 
-type Command interface{
+type Command interface {
 	Execute(args []string) error
 }
