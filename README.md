@@ -104,7 +104,7 @@ ExpenseTracker/
 ```bash
 make build   # Compila el binario
 make run     # Lo compila y lo ejecuta
-make lint    # Pasa el linter
+make fmt     # Formatea el código
 make test    # Ejecuta los tests
 make clean   # Borra los binarios generados
 ```

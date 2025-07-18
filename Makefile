@@ -11,8 +11,8 @@ ENTRY=main.go
 build:
 	go build -o $(OUTPUT_DIR)/$(BINARY_NAME) $(ENTRY)
 
-run: build
-	./$(OUTPUT_DIR)/$(BINARY_NAME)
+run:
+	go run $(ENTRY)
 
 test:
 	go test ./...
